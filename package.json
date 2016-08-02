@@ -1,0 +1,23 @@
+{
+  "name": "gif-creation-service",
+  "version": "0.0.1",
+  "description": "Node service that makes it super-simple to create GIFs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-fulton/gif-creation-service.git"
+  },
+  "keywords": [
+    "gif",
+    "images"
+  ],
+  "author": "Jonathan Fulton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-fulton/gif-creation-service/issues"
+  },
+  "homepage": "https://github.com/jonathan-fulton/gif-creation-service#readme"
+}
