@@ -1,6 +1,6 @@
 {
   "name": "gif-creation-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node service that makes it super-simple to create GIFs",
   "main": "index.js",
   "scripts": {
