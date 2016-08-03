@@ -4,7 +4,7 @@
   "description": "Node service that makes it super-simple to create GIFs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/mocha test/unit --recursive"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/jonathan-fulton/gif-creation-service/issues"
   },
-  "homepage": "https://github.com/jonathan-fulton/gif-creation-service#readme"
+  "homepage": "https://github.com/jonathan-fulton/gif-creation-service#readme",
+  "dependencies": {
+    "bluebird": "3.4.1",
+    "gifencoder": "1.0.6",
+    "image-size": "0.5.0",
+    "lodash": "4.14.1",
+    "png-file-stream": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "3.0.0",
+    "should": "10.0.0",
+    "tmp-promise": "1.0.2"
+  }
 }
